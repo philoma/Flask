@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Flask Devops</title>
+</head>
+<body>
+
+<table border=2>
+ {% for key,value in go.items() %}
+    <tr>
+        {# This is the comment sections #}
+        <th>{{ key }}</th>
+        <th>{{ value }}</th>
+
+    </tr>
+  {% endfor %}
+<!--    endif for if, endfor for for, endwhile for while-->
+</table>
+</body>
+</html>
+
